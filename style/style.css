@@ -1,12 +1,28 @@
+/*
+rgba(39,47,55,255)
+rgba(231,232,226,255)
+
+*/
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
 body{ 
   background-image: url(../_906d2035-b436-4a18-b8c3-3c75e6ef8171.jpg);
   background-position: center;
 background-position: top right;
-background-position: 100px 200%;
+background-position: 120px 850px;
 }
 /* Menu */
 .menu {
-  background-color: #333;
+  background-color: rgb(230, 235, 234);
+  width: 413.5px;
+  align-items: center;
+
 }
 
 .menu ul {
@@ -16,15 +32,17 @@ background-position: 100px 200%;
 }
 
 .menu a {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   display: block;
   padding: 15px 20px;
-  color: white;
+  color: rgb(36,44,52);
   text-decoration: none;
   transition: 0.3s;
 }
 
 .menu a:hover {
   background-color: #555;
+  color: darkgoldenrod;
 }
 /*FIM MENU*/
 
@@ -44,7 +62,7 @@ background-position: 100px 200%;
 }
 
 .main p{
-    color: darkcyan;
+    color: goldenrod;
     font-size: 24px;
     font-style: italic;
     margin-top: 0px;
@@ -63,7 +81,7 @@ background-position: 100px 200%;
 }
 
 .call-to-action:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 .main a{
@@ -71,3 +89,36 @@ background-position: 100px 200%;
     color: #181818;
 }
 /*FIM MAIN*/
+
+/*INICIO SOBRE*/
+.about{
+  background-color: rgba(231,232,226,255);
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about div{
+    max-width: 50%;
+    margin-right: 40px;
+}
+
+.about img{
+    max-width: 450px;
+    border-radius: 8px;
+}
+
+.about div h2{
+    font-size: 42px;
+    margin-bottom: 14px;
+}
+
+.about div p{
+    font-size: 20px;
+}
+/*FIM SOBRE*/
